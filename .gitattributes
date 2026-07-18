@@ -1,3 +1,5 @@
 # archive stays byte-exact, never convert line endings
 html/** -text
+# exclude archive from language stats
+html/** linguist-documentation
 * text=auto eol=lf
