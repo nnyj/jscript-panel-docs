@@ -1,28 +1,36 @@
-# JScript Panel 3 Docs Archive
+# jscript-panel-docs
 
-Mirror of the deleted JScript Panel 3 (`foo_jscript_panel3`) documentation site.
+<div align="center">
 
-- component: JScript Panel 3 for foobar2000, final release 3.8.5 (2024-11-18), abandoned by author
-- the `jscript-panel` GitHub org (source, releases, this docs site) was deleted late Dec 2024 / early Jan 2025
-- author's parting note on the release page: `This component is now abandoned. I'm providing the download and documentation only.`
-- C++ source has no known surviving fork, these docs are the remaining API reference
+[![Stars](https://img.shields.io/github/stars/nnyj/jscript-panel-docs?style=for-the-badge&labelColor=555&color=e3b341)](https://github.com/nnyj/jscript-panel-docs/stargazers)
+[![Downloads](https://img.shields.io/github/downloads/nnyj/jscript-panel-docs/total?style=for-the-badge&labelColor=555&color=2ea44f)](https://github.com/nnyj/jscript-panel-docs/releases)
+[![Latest Release](https://img.shields.io/github/v/release/nnyj/jscript-panel-docs?style=for-the-badge&label=Latest%20Release&labelColor=555&color=3572d6)](https://github.com/nnyj/jscript-panel-docs/releases/latest)
 
-## Component download
+</div>
 
-- 3.8.5 component attached to this repo's Releases page
-- other mirrors: [ZoeySamples/foobar2000-JScriptPanel3-contributions](https://github.com/ZoeySamples/foobar2000-JScriptPanel3-contributions) (3.8.5),
-  [woodkin/JScript-Panel](https://github.com/woodkin/JScript-Panel) (3.8.5),
-  [Dronf3/JScript-Panel-3---foobar2k](https://github.com/Dronf3/JScript-Panel-3---foobar2k) (3.4.34, last Win7 / fb2k 1.6 compatible)
-- 3.8.5 requires Windows 10+ and foobar2000 2.1+
+Archive of the deleted JScript Panel 3 (`foo_jscript_panel3`) documentation site, 86 pages from Wayback Machine Dec 2024 snapshots, with the v3.8.5 component binary attached to Releases.
+
+> [!NOTE]
+> The `jscript-panel` GitHub org (source, releases, docs) was deleted late Dec 2024 / early Jan 2025. C++ source has no known surviving fork. These docs are the remaining API reference.
+
+## Download
+
+- v3.8.5 component attached to this repo's [Releases](../../releases), requires Windows 10+ and foobar2000 2.1+
+- author's note: `This component is now abandoned. I'm providing the download and documentation only.`
+
+Other mirrors:
+
+- [ZoeySamples/foobar2000-JScriptPanel3-contributions](https://github.com/ZoeySamples/foobar2000-JScriptPanel3-contributions): v3.8.5
+- [woodkin/JScript-Panel](https://github.com/woodkin/JScript-Panel): v3.8.5
+- [Dronf3/JScript-Panel-3---foobar2k](https://github.com/Dronf3/JScript-Panel-3---foobar2k): v3.4.34, last Win7 / fb2k 1.6 compatible
 
 ## Structure
 
-- `html/` - raw canonical archive, one `index.html` per page mirroring site path
-- `md/` - regenerated markdown, convenience copies derived from the HTML
-- `html_to_md.js` - converter, run `node html_to_md.js` to regenerate `md/` from `html/`
+- `html/` - canonical archive, one `index.html` per page mirroring original site path, byte-exact (no line ending conversion)
+- `md/` - regenerated markdown, convenience copies derived from HTML
+- `html_to_md.js` - converter: `node html_to_md.js` regenerates `md/` from `html/`
 
-Each page saved from its latest available 200 snapshot (mostly Dec 2024, the final site state).
-Fetched via `https://web.archive.org/web/<timestamp>id_/<url>` (id_ = no wayback toolbar).
+Each page saved from its latest available Wayback Machine 200 snapshot (mostly Dec 2024). Fetched via `https://web.archive.org/web/<timestamp>id_/<url>` (`id_` strips wayback toolbar).
 
 ## Pages (86)
 
